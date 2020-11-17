@@ -14,9 +14,9 @@ number_of_employees:{$gte:90, $lte:120},
 "offices.latitude":{ $exists: true, $ne: null},category_code:{$eq:"games_video", $eq:"software", $eq:"web"}
 ```
 
-![alt text](images\oficinas.png)
+![oficinas](images\oficinas.png)
 
-A partir de aquí os mostraré como la ofcina de GitHub cumple con la mayoria de requesitos que plantea la empresa.
+A partir de aquí os mostraré como la ofcina de GitHub cumple con la mayoria de requesitos que plantea la empresa y por lo tanto, es la mejor candidata.
 ----------------------------------------------
 
 A los diseñadores les gustaría tener cerca alguna startup que haya conseguido al menos $1M:
