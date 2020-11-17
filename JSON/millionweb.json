@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "52cdef7c4bab8bd675297e02"
+  },
+  "name": "Dogster",
+  "category_code": "web",
+  "offices": [
+    {
+      "description": null,
+      "address1": "555 De Haro Street, #350",
+      "address2": "",
+      "zip_code": "",
+      "city": "San Francisco",
+      "state_code": "CA",
+      "country_code": "USA",
+      "latitude": 37.762681,
+      "longitude": -122.400909
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "52cdef7c4bab8bd67529807e"
+  },
+  "name": "Gydget",
+  "category_code": "web",
+  "offices": [
+    {
+      "description": null,
+      "address1": "1 Front Street",
+      "address2": null,
+      "zip_code": "94111",
+      "city": "San Francisco",
+      "state_code": "CA",
+      "country_code": "USA",
+      "latitude": 37.791733,
+      "longitude": -122.398398
+    }
+  ]
+}]

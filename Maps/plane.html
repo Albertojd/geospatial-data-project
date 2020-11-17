@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e7445a9e132d455ab8775d687be52328 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e7445a9e132d455ab8775d687be52328" ></div>
+        
+</body>
+<script>    
+    
+            var map_e7445a9e132d455ab8775d687be52328 = L.map(
+                "map_e7445a9e132d455ab8775d687be52328",
+                {
+                    center: [37.775196, -122.419204],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_36ba3f0c4ade4a39bee988b9cdd490c4 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e7445a9e132d455ab8775d687be52328);
+        
+    
+            var marker_3bfb24a35b044ecbb05c5c9ee669c35f = L.marker(
+                [37.775196, -122.419204],
+                {}
+            ).addTo(map_e7445a9e132d455ab8775d687be52328);
+        
+    
+            var icon_8e9be2a32e3840a5bd3c4788e8af299d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3bfb24a35b044ecbb05c5c9ee669c35f.setIcon(icon_8e9be2a32e3840a5bd3c4788e8af299d);
+        
+    
+        var popup_3166e61fa8314228ac0d43c470fd8bb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d72f6bd6a0854eef9fe46c04a7a6a118 = $(`<div id="html_d72f6bd6a0854eef9fe46c04a7a6a118" style="width: 100.0%; height: 100.0%;">['GitHub', 37.775196, -122.419204]</div>`)[0];
+            popup_3166e61fa8314228ac0d43c470fd8bb7.setContent(html_d72f6bd6a0854eef9fe46c04a7a6a118);
+        
+
+        marker_3bfb24a35b044ecbb05c5c9ee669c35f.bindPopup(popup_3166e61fa8314228ac0d43c470fd8bb7)
+        ;
+
+        
+    
+    
+            var marker_1ba5ce1695974d9aa1e1a4e5c824c2af = L.marker(
+                [37.6213129, -122.3789554],
+                {}
+            ).addTo(map_e7445a9e132d455ab8775d687be52328);
+        
+    
+            var icon_3f364291293448e8a66580cc1ca267cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_1ba5ce1695974d9aa1e1a4e5c824c2af.setIcon(icon_3f364291293448e8a66580cc1ca267cf);
+        
+    
+        var popup_a3c342129d254818a950b99a3b9f7202 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64192c927441435da2ebc88050212215 = $(`<div id="html_64192c927441435da2ebc88050212215" style="width: 100.0%; height: 100.0%;">San Francisco International Airport</div>`)[0];
+            popup_a3c342129d254818a950b99a3b9f7202.setContent(html_64192c927441435da2ebc88050212215);
+        
+
+        marker_1ba5ce1695974d9aa1e1a4e5c824c2af.bindPopup(popup_a3c342129d254818a950b99a3b9f7202)
+        ;
+
+        
+    
+    
+            var marker_9d79c60c3b124d7082adfcf396412d8c = L.marker(
+                [37.7125689, -122.2197428],
+                {}
+            ).addTo(map_e7445a9e132d455ab8775d687be52328);
+        
+    
+            var icon_6bceeb49bbf540e3974c19e8b73ddfde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_9d79c60c3b124d7082adfcf396412d8c.setIcon(icon_6bceeb49bbf540e3974c19e8b73ddfde);
+        
+    
+        var popup_1b76e4c2ebad4a2eb9053c995b0a6c50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db26b938e2fd4e2da9ccc2475a0bc5f4 = $(`<div id="html_db26b938e2fd4e2da9ccc2475a0bc5f4" style="width: 100.0%; height: 100.0%;">Oakland International Airport</div>`)[0];
+            popup_1b76e4c2ebad4a2eb9053c995b0a6c50.setContent(html_db26b938e2fd4e2da9ccc2475a0bc5f4);
+        
+
+        marker_9d79c60c3b124d7082adfcf396412d8c.bindPopup(popup_1b76e4c2ebad4a2eb9053c995b0a6c50)
+        ;
+
+        
+    
+    
+            var measure_control_fdea6424235d43b9a0a976b88d837033 = new L.Control.Measure(
+                {"position": "topright", "primaryAreaUnit": "sqmeters", "primaryLengthUnit": "meters", "secondaryAreaUnit": "acres", "secondaryLengthUnit": "miles"});
+            map_e7445a9e132d455ab8775d687be52328.addControl(measure_control_fdea6424235d43b9a0a976b88d837033);
+
+        
+</script>

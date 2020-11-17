@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "52cdef7c4bab8bd6752987f1"
+  },
+  "name": "GitHub",
+  "offices": [
+    {
+      "description": "",
+      "address1": "275 Brannan St.",
+      "address2": "",
+      "zip_code": "94107",
+      "city": "San Francisco",
+      "state_code": "CA",
+      "country_code": "USA",
+      "latitude": 37.775196,
+      "longitude": -122.419204
+    }
+  ]
+}]

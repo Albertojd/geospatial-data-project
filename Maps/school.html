@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_06c35412dc074359a3e78804657c8730 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+    <script src="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+    <script src="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+    <script src="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+    <script src="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+    <script src="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+    <script src="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+    <script src="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+    <script src="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+    <script src="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.js"></script>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/ljagis/leaflet-measure/2.1.7/dist/leaflet-measure.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_06c35412dc074359a3e78804657c8730" ></div>
+        
+</body>
+<script>    
+    
+            var map_06c35412dc074359a3e78804657c8730 = L.map(
+                "map_06c35412dc074359a3e78804657c8730",
+                {
+                    center: [37.775196, -122.419204],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_971674674d234838ba38a435dd8e4c77 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var marker_3c9b2d64eb494ac982f15079fe49f020 = L.marker(
+                [37.775196, -122.419204],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_51b32899fdef4160acb68d4878832c36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3c9b2d64eb494ac982f15079fe49f020.setIcon(icon_51b32899fdef4160acb68d4878832c36);
+        
+    
+        var popup_822617ef1c2f4b9cb2c5c7548e593c54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5684de70e134bfaa9fc7da705ecbb11 = $(`<div id="html_a5684de70e134bfaa9fc7da705ecbb11" style="width: 100.0%; height: 100.0%;">['GitHub', 37.775196, -122.419204]</div>`)[0];
+            popup_822617ef1c2f4b9cb2c5c7548e593c54.setContent(html_a5684de70e134bfaa9fc7da705ecbb11);
+        
+
+        marker_3c9b2d64eb494ac982f15079fe49f020.bindPopup(popup_822617ef1c2f4b9cb2c5c7548e593c54)
+        ;
+
+        
+    
+    
+            var marker_846e9db190a14ec49033bd0941169c0b = L.marker(
+                [37.7184174, -122.3890454],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_e51ac94accc24c7fad85f7792a9497bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_846e9db190a14ec49033bd0941169c0b.setIcon(icon_e51ac94accc24c7fad85f7792a9497bb);
+        
+    
+        var popup_c8afe718eec846a98ec00ddfa502988f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3245739df78649ef9ff63980b16488f5 = $(`<div id="html_3245739df78649ef9ff63980b16488f5" style="width: 100.0%; height: 100.0%;">Bret Harte Elementary School</div>`)[0];
+            popup_c8afe718eec846a98ec00ddfa502988f.setContent(html_3245739df78649ef9ff63980b16488f5);
+        
+
+        marker_846e9db190a14ec49033bd0941169c0b.bindPopup(popup_c8afe718eec846a98ec00ddfa502988f)
+        ;
+
+        
+    
+    
+            var marker_f1795c9fb23f4b5db68a2e08d61ada84 = L.marker(
+                [37.7126868, -122.4099161],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_b7705d32f2c64684a62efe7aa73784d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_f1795c9fb23f4b5db68a2e08d61ada84.setIcon(icon_b7705d32f2c64684a62efe7aa73784d2);
+        
+    
+        var popup_57c3fe9befb5446b888944e06327ae04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8dce19ce67fb4657ad527906ee96d42f = $(`<div id="html_8dce19ce67fb4657ad527906ee96d42f" style="width: 100.0%; height: 100.0%;">Visitacion Valley Elementary School</div>`)[0];
+            popup_57c3fe9befb5446b888944e06327ae04.setContent(html_8dce19ce67fb4657ad527906ee96d42f);
+        
+
+        marker_f1795c9fb23f4b5db68a2e08d61ada84.bindPopup(popup_57c3fe9befb5446b888944e06327ae04)
+        ;
+
+        
+    
+    
+            var marker_24a9c8cb13b54725bc49525842eb05ed = L.marker(
+                [37.7185653, -122.4072593],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_ffcfb4146edd4c87ac091510fba7b2d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_24a9c8cb13b54725bc49525842eb05ed.setIcon(icon_ffcfb4146edd4c87ac091510fba7b2d0);
+        
+    
+        var popup_afde8e42f9614e9cbd05c6af8e0f2dad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47758d40977e422f9d1efe1ac462d8fe = $(`<div id="html_47758d40977e422f9d1efe1ac462d8fe" style="width: 100.0%; height: 100.0%;">El Dorado Elementary School</div>`)[0];
+            popup_afde8e42f9614e9cbd05c6af8e0f2dad.setContent(html_47758d40977e422f9d1efe1ac462d8fe);
+        
+
+        marker_24a9c8cb13b54725bc49525842eb05ed.bindPopup(popup_afde8e42f9614e9cbd05c6af8e0f2dad)
+        ;
+
+        
+    
+    
+            var marker_3b0d9e309c6547efbc996ed577d223dc = L.marker(
+                [37.7318315, -122.3853987],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_dcae0717278b4fc4bb24e4bf5432bdcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_3b0d9e309c6547efbc996ed577d223dc.setIcon(icon_dcae0717278b4fc4bb24e4bf5432bdcb);
+        
+    
+        var popup_e638d5c906cd4bfd986c8a06562ed707 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5b648f214cc47d289227b5be9a7693c = $(`<div id="html_f5b648f214cc47d289227b5be9a7693c" style="width: 100.0%; height: 100.0%;">George Washington Carver Elementary School</div>`)[0];
+            popup_e638d5c906cd4bfd986c8a06562ed707.setContent(html_f5b648f214cc47d289227b5be9a7693c);
+        
+
+        marker_3b0d9e309c6547efbc996ed577d223dc.bindPopup(popup_e638d5c906cd4bfd986c8a06562ed707)
+        ;
+
+        
+    
+    
+            var marker_84e44b809b9b4e829386ad002cb4fecb = L.marker(
+                [37.6633376, -122.4098334],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_d863dba1e92a459aaf0b56d0b105ded4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_84e44b809b9b4e829386ad002cb4fecb.setIcon(icon_d863dba1e92a459aaf0b56d0b105ded4);
+        
+    
+        var popup_1b3e922f830b43f69bd8953b86760f72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21b5989def2b4864914f6d6d1f1fed3f = $(`<div id="html_21b5989def2b4864914f6d6d1f1fed3f" style="width: 100.0%; height: 100.0%;">Martin Elementary School</div>`)[0];
+            popup_1b3e922f830b43f69bd8953b86760f72.setContent(html_21b5989def2b4864914f6d6d1f1fed3f);
+        
+
+        marker_84e44b809b9b4e829386ad002cb4fecb.bindPopup(popup_1b3e922f830b43f69bd8953b86760f72)
+        ;
+
+        
+    
+    
+            var marker_971c0deda07e415ab24fdb2a70e43edf = L.marker(
+                [37.7255673, -122.4304005],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_8cf972b41e2d4124ba5a9dd2f4659a8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_971c0deda07e415ab24fdb2a70e43edf.setIcon(icon_8cf972b41e2d4124ba5a9dd2f4659a8b);
+        
+    
+        var popup_270efa0e7f464a9ba31405320fe69f88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a5c0498da7d4062a93480809a3760c7 = $(`<div id="html_5a5c0498da7d4062a93480809a3760c7" style="width: 100.0%; height: 100.0%;">Monroe Elementary School</div>`)[0];
+            popup_270efa0e7f464a9ba31405320fe69f88.setContent(html_5a5c0498da7d4062a93480809a3760c7);
+        
+
+        marker_971c0deda07e415ab24fdb2a70e43edf.bindPopup(popup_270efa0e7f464a9ba31405320fe69f88)
+        ;
+
+        
+    
+    
+            var marker_eee6288259c545c8abf886e81c551dc6 = L.marker(
+                [37.6803857, -122.3994219],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_bc75e6793f9f4a9c893b9f13e933d41a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_eee6288259c545c8abf886e81c551dc6.setIcon(icon_bc75e6793f9f4a9c893b9f13e933d41a);
+        
+    
+        var popup_694df79e34ea4f249207fd2404d7e194 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9122c1c4d6ea4fa880109c70db877ab9 = $(`<div id="html_9122c1c4d6ea4fa880109c70db877ab9" style="width: 100.0%; height: 100.0%;">Brisbane Elementary School</div>`)[0];
+            popup_694df79e34ea4f249207fd2404d7e194.setContent(html_9122c1c4d6ea4fa880109c70db877ab9);
+        
+
+        marker_eee6288259c545c8abf886e81c551dc6.bindPopup(popup_694df79e34ea4f249207fd2404d7e194)
+        ;
+
+        
+    
+    
+            var marker_514d2fe9dbd14dc292ee7c439daa06fd = L.marker(
+                [37.7516281, -122.404906],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_0f563ad795654c5ab0ebbf7b29fd9f70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_514d2fe9dbd14dc292ee7c439daa06fd.setIcon(icon_0f563ad795654c5ab0ebbf7b29fd9f70);
+        
+    
+        var popup_19c0870f53bc4f7983ab856a6eee38db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_954a8919161a4eefbaf84ffffade3a5a = $(`<div id="html_954a8919161a4eefbaf84ffffade3a5a" style="width: 100.0%; height: 100.0%;">Bryant Elementary School</div>`)[0];
+            popup_19c0870f53bc4f7983ab856a6eee38db.setContent(html_954a8919161a4eefbaf84ffffade3a5a);
+        
+
+        marker_514d2fe9dbd14dc292ee7c439daa06fd.bindPopup(popup_19c0870f53bc4f7983ab856a6eee38db)
+        ;
+
+        
+    
+    
+            var marker_b7bfe7eef15645d18ebb6b75b0b615d8 = L.marker(
+                [37.7102323, -122.4346486],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_0a565418c71f4d20aed76bb925efdcb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_b7bfe7eef15645d18ebb6b75b0b615d8.setIcon(icon_0a565418c71f4d20aed76bb925efdcb0);
+        
+    
+        var popup_0e3084fd69384d69a67e5307e8ed712e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63caeaa24fee469c9a3da9e500170849 = $(`<div id="html_63caeaa24fee469c9a3da9e500170849" style="width: 100.0%; height: 100.0%;">Guadalupe Elementary School</div>`)[0];
+            popup_0e3084fd69384d69a67e5307e8ed712e.setContent(html_63caeaa24fee469c9a3da9e500170849);
+        
+
+        marker_b7bfe7eef15645d18ebb6b75b0b615d8.bindPopup(popup_0e3084fd69384d69a67e5307e8ed712e)
+        ;
+
+        
+    
+    
+            var marker_f9f579eb6c544e9cb18430a96e8b6947 = L.marker(
+                [37.7477649, -122.411865],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_59b77e8016574811a4ed06c08a1f1c12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_f9f579eb6c544e9cb18430a96e8b6947.setIcon(icon_59b77e8016574811a4ed06c08a1f1c12);
+        
+    
+        var popup_6af03b9c2fe4474a96a6d1bfe55470be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54b2df64749c4ab7b46f5aa2f604dd8b = $(`<div id="html_54b2df64749c4ab7b46f5aa2f604dd8b" style="width: 100.0%; height: 100.0%;">Leonard R. Flynn Elementary School</div>`)[0];
+            popup_6af03b9c2fe4474a96a6d1bfe55470be.setContent(html_54b2df64749c4ab7b46f5aa2f604dd8b);
+        
+
+        marker_f9f579eb6c544e9cb18430a96e8b6947.bindPopup(popup_6af03b9c2fe4474a96a6d1bfe55470be)
+        ;
+
+        
+    
+    
+            var marker_45248475a75e4b1d87de234711af1d9d = L.marker(
+                [37.7277831, -122.4075501],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_5d934b2e6eac4c0485dae53c1fdb8a43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_45248475a75e4b1d87de234711af1d9d.setIcon(icon_5d934b2e6eac4c0485dae53c1fdb8a43);
+        
+    
+        var popup_a12c9ccb16734b39a14a09f14d769f60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4501a26cbaf47c996ae17f1c5776993 = $(`<div id="html_e4501a26cbaf47c996ae17f1c5776993" style="width: 100.0%; height: 100.0%;">E R Taylor Elementary School</div>`)[0];
+            popup_a12c9ccb16734b39a14a09f14d769f60.setContent(html_e4501a26cbaf47c996ae17f1c5776993);
+        
+
+        marker_45248475a75e4b1d87de234711af1d9d.bindPopup(popup_a12c9ccb16734b39a14a09f14d769f60)
+        ;
+
+        
+    
+    
+            var marker_0b0ba995b8604d70bdf3a225540a2432 = L.marker(
+                [37.7053915, -122.4143187],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_b8bb4bccb4564beb9c375ab114a7ceb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_0b0ba995b8604d70bdf3a225540a2432.setIcon(icon_b8bb4bccb4564beb9c375ab114a7ceb6);
+        
+    
+        var popup_6b5ca4e651a248ce9f155d3bd808c5ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2d82cc9087c4efc8cd2c92277910b56 = $(`<div id="html_b2d82cc9087c4efc8cd2c92277910b56" style="width: 100.0%; height: 100.0%;">Bayshore Elementary School</div>`)[0];
+            popup_6b5ca4e651a248ce9f155d3bd808c5ca.setContent(html_b2d82cc9087c4efc8cd2c92277910b56);
+        
+
+        marker_0b0ba995b8604d70bdf3a225540a2432.bindPopup(popup_6b5ca4e651a248ce9f155d3bd808c5ca)
+        ;
+
+        
+    
+    
+            var marker_babbd6290c4f4612a82f1b132005a26d = L.marker(
+                [37.7344366, -122.3807957],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_cffec14ae3d94bb1a281cf29590fd3b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_babbd6290c4f4612a82f1b132005a26d.setIcon(icon_cffec14ae3d94bb1a281cf29590fd3b2);
+        
+    
+        var popup_91bcb8c491074270ab429c7b14fffe1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e61920b260fd4f4f805f46c411165703 = $(`<div id="html_e61920b260fd4f4f805f46c411165703" style="width: 100.0%; height: 100.0%;">KIPP Bayview Elementary</div>`)[0];
+            popup_91bcb8c491074270ab429c7b14fffe1a.setContent(html_e61920b260fd4f4f805f46c411165703);
+        
+
+        marker_babbd6290c4f4612a82f1b132005a26d.bindPopup(popup_91bcb8c491074270ab429c7b14fffe1a)
+        ;
+
+        
+    
+    
+            var marker_153cdee1601949f8a8790603d44e3eb6 = L.marker(
+                [37.7302982, -122.4483162],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_36fd8ce144764cccb2261c16b15a450b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_153cdee1601949f8a8790603d44e3eb6.setIcon(icon_36fd8ce144764cccb2261c16b15a450b);
+        
+    
+        var popup_fef689583e704ce38c745e474e023909 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a76b4b816eff47d7b83253c5b85fea4e = $(`<div id="html_a76b4b816eff47d7b83253c5b85fea4e" style="width: 100.0%; height: 100.0%;">Sunnyside Elementary School</div>`)[0];
+            popup_fef689583e704ce38c745e474e023909.setContent(html_a76b4b816eff47d7b83253c5b85fea4e);
+        
+
+        marker_153cdee1601949f8a8790603d44e3eb6.bindPopup(popup_fef689583e704ce38c745e474e023909)
+        ;
+
+        
+    
+    
+            var marker_88b9610a82354cc0b5fe986da3f45f18 = L.marker(
+                [37.7073128, -122.4461278],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_e577e82c35ea4fcf9c9f3a9e8ae2463b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_88b9610a82354cc0b5fe986da3f45f18.setIcon(icon_e577e82c35ea4fcf9c9f3a9e8ae2463b);
+        
+    
+        var popup_03a3118074fa4982ae2cefa914e6df53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e2d4d572cef499da589631ada489510 = $(`<div id="html_6e2d4d572cef499da589631ada489510" style="width: 100.0%; height: 100.0%;">George Washington Elementary</div>`)[0];
+            popup_03a3118074fa4982ae2cefa914e6df53.setContent(html_6e2d4d572cef499da589631ada489510);
+        
+
+        marker_88b9610a82354cc0b5fe986da3f45f18.bindPopup(popup_03a3118074fa4982ae2cefa914e6df53)
+        ;
+
+        
+    
+    
+            var marker_2138e7dd7c76406da94797f5dd9be30b = L.marker(
+                [37.6590246, -122.4162215],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_28628a16b4bc468db809b07eb00c3eec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_2138e7dd7c76406da94797f5dd9be30b.setIcon(icon_28628a16b4bc468db809b07eb00c3eec);
+        
+    
+        var popup_d4efd7d09e7f4ae6962a1e3cf6443db0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_707a4a1f406d4ec38318f3d62d29ebca = $(`<div id="html_707a4a1f406d4ec38318f3d62d29ebca" style="width: 100.0%; height: 100.0%;">Spruce Elementary School</div>`)[0];
+            popup_d4efd7d09e7f4ae6962a1e3cf6443db0.setContent(html_707a4a1f406d4ec38318f3d62d29ebca);
+        
+
+        marker_2138e7dd7c76406da94797f5dd9be30b.bindPopup(popup_d4efd7d09e7f4ae6962a1e3cf6443db0)
+        ;
+
+        
+    
+    
+            var marker_e5a374fd6edd4781b4dd1642587e0403 = L.marker(
+                [37.7537275, -122.4385279],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_a718916185fe416ba15ab88f4368f23a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_e5a374fd6edd4781b4dd1642587e0403.setIcon(icon_a718916185fe416ba15ab88f4368f23a);
+        
+    
+        var popup_1b13419a8fce437aa7162d350ce43d98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe7ab0059e9a43b5af28fe5f0437beed = $(`<div id="html_fe7ab0059e9a43b5af28fe5f0437beed" style="width: 100.0%; height: 100.0%;">Alvarado Elementary School</div>`)[0];
+            popup_1b13419a8fce437aa7162d350ce43d98.setContent(html_fe7ab0059e9a43b5af28fe5f0437beed);
+        
+
+        marker_e5a374fd6edd4781b4dd1642587e0403.bindPopup(popup_1b13419a8fce437aa7162d350ce43d98)
+        ;
+
+        
+    
+    
+            var marker_f303e7064151440098632fa7437a8383 = L.marker(
+                [37.7383615, -122.4222821],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_2860c60f91b041bf8af005158d35f070 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_f303e7064151440098632fa7437a8383.setIcon(icon_2860c60f91b041bf8af005158d35f070);
+        
+    
+        var popup_30394e1f64b94a8ba37c8ce830c1d347 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0653c4de151c4e108b4459c4173e1910 = $(`<div id="html_0653c4de151c4e108b4459c4173e1910" style="width: 100.0%; height: 100.0%;">Junipero Serra Early Elementary School</div>`)[0];
+            popup_30394e1f64b94a8ba37c8ce830c1d347.setContent(html_0653c4de151c4e108b4459c4173e1910);
+        
+
+        marker_f303e7064151440098632fa7437a8383.bindPopup(popup_30394e1f64b94a8ba37c8ce830c1d347)
+        ;
+
+        
+    
+    
+            var marker_1087fe7bc88b40bbad965865f3a0949a = L.marker(
+                [37.7536155, -122.3988962],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_f0be14ae0fa648b98b8cbf77831e73b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1087fe7bc88b40bbad965865f3a0949a.setIcon(icon_f0be14ae0fa648b98b8cbf77831e73b7);
+        
+    
+        var popup_4c75d73a70fc4c0d94916392f576563e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36e64295e41546d784ef0bb15775b4ad = $(`<div id="html_36e64295e41546d784ef0bb15775b4ad" style="width: 100.0%; height: 100.0%;">Starr King Elementary School</div>`)[0];
+            popup_4c75d73a70fc4c0d94916392f576563e.setContent(html_36e64295e41546d784ef0bb15775b4ad);
+        
+
+        marker_1087fe7bc88b40bbad965865f3a0949a.bindPopup(popup_4c75d73a70fc4c0d94916392f576563e)
+        ;
+
+        
+    
+    
+            var marker_8b5d970d5c484eabb52a08c10712c3f3 = L.marker(
+                [37.7564161, -122.4124934],
+                {}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+    
+            var icon_8281d87a6ffc43d2b062419220ac378d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-pencil", "iconColor": "darkblue", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8b5d970d5c484eabb52a08c10712c3f3.setIcon(icon_8281d87a6ffc43d2b062419220ac378d);
+        
+    
+        var popup_d018a5cde7a34d5e984a0da2945f22ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_255771e9a0e34ce28f660d0fe8772ab4 = $(`<div id="html_255771e9a0e34ce28f660d0fe8772ab4" style="width: 100.0%; height: 100.0%;">George Moscone Elementary School</div>`)[0];
+            popup_d018a5cde7a34d5e984a0da2945f22ac.setContent(html_255771e9a0e34ce28f660d0fe8772ab4);
+        
+
+        marker_8b5d970d5c484eabb52a08c10712c3f3.bindPopup(popup_d018a5cde7a34d5e984a0da2945f22ac)
+        ;
+
+        
+    
+    
+            var measure_control_936a1cc170234c568674807ad37dd9ab = new L.Control.Measure(
+                {"position": "topright", "primaryAreaUnit": "sqmeters", "primaryLengthUnit": "meters", "secondaryAreaUnit": "acres", "secondaryLengthUnit": "miles"});
+            map_06c35412dc074359a3e78804657c8730.addControl(measure_control_936a1cc170234c568674807ad37dd9ab);
+
+        
+    
+            var measure_control_531c0abe806c4dc2b859f31a2d7f03d7 = new L.Control.Measure(
+                {"position": "topright", "primaryAreaUnit": "sqmeters", "primaryLengthUnit": "meters", "secondaryAreaUnit": "acres", "secondaryLengthUnit": "miles"});
+            map_06c35412dc074359a3e78804657c8730.addControl(measure_control_531c0abe806c4dc2b859f31a2d7f03d7);
+
+        
+    
+            var circle_131e1e563f884088a84daf8492e85541 = L.circle(
+                [37.775196, -122.419204],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4000, "stroke": true, "weight": 3}
+            ).addTo(map_06c35412dc074359a3e78804657c8730);
+        
+</script>

@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "52cdef7d4bab8bd67529975a"
+  },
+  "name": "Telespree",
+  "offices": [
+    {
+      "description": "Headquarters",
+      "address1": "185 Berry Street",
+      "address2": "",
+      "zip_code": "",
+      "city": "San Francisco",
+      "state_code": "CA",
+      "country_code": "USA",
+      "latitude": 37.777092,
+      "longitude": -122.391011
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "52cdef7d4bab8bd675299ae4"
+  },
+  "name": "Telespree",
+  "offices": [
+    {
+      "description": "Headquarters",
+      "address1": "185 Berry Street",
+      "address2": "",
+      "zip_code": "",
+      "city": "San Francisco",
+      "state_code": "CA",
+      "country_code": "USA",
+      "latitude": 37.777092,
+      "longitude": -122.391011
+    }
+  ]
+}]

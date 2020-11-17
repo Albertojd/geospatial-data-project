@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "52cdef7d4bab8bd675299fec"
+  },
+  "name": "GotGame",
+  "category_code": "games_video",
+  "number_of_employees": 15,
+  "offices": [
+    {
+      "description": "GotGame HQ",
+      "address1": "1 Bluxome Place",
+      "address2": "Suite 204",
+      "zip_code": "94107",
+      "city": "San Francisco",
+      "state_code": "CA",
+      "country_code": "USA",
+      "latitude": 37.77772,
+      "longitude": -122.395785
+    }
+  ]
+}]
